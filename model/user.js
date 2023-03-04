@@ -9,4 +9,5 @@ const userSchema = mongoose.Schema({
 
 const postUser = mongoose.model('user', userSchema);
 
+
 export default postUser;
