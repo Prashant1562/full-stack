@@ -3,6 +3,7 @@ import { getUsers, addUser, getUserById, editUser, deleteUser } from '../control
 
 const router = express.Router();
 
+
 router.get('/', getUsers);
 router.post('/add', addUser);
 router.get('/:id', getUserById);
